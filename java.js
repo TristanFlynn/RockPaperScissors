@@ -1,9 +1,10 @@
+
+let result = '';
+//result variable has been moved outside playGame function scope to access the new gameScore function
 function playGame(playerMove) {
 // This function will operate when a "playerMove" button is clicked
 //Results are compared to "computerMove" which operates the computerChoice function
   const computerMove = getComputerChoice();
-
-  let result = '';
 
   if (playerMove === 'rock') {
     if (computerMove === 'rock') {
