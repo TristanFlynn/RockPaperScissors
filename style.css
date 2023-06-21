@@ -1,4 +1,5 @@
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
   padding-top: 100px;
   background-color: rgb(37, 19, 19);
@@ -9,6 +10,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .move-icon {
   height: 150px;
   justify-content: center;
@@ -24,14 +26,41 @@ body {
   cursor: pointer;
 }
 
-.scoreboard-area{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-right: 40px;
+.scoreboard-header{
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
+
 .scoreboard-title{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   color: white;
   font-size: 40px;
+}
+
+.user-computer-boxes{
+  margin-right: 40px;
+}
+
+.score-boxes{
+  display: flex;
+  justify-content: center;
+}
+
+.user-box {
+  margin-right: 40px;
+  background-color: antiquewhite;
+  border: 3px solid white;
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.computer-box {
+  margin-left: 40px;
+  background-color: antiquewhite;
+  border: 3px solid white;
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
 }
