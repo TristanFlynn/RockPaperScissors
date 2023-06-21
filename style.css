@@ -1,5 +1,4 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
   padding-top: 100px;
   background-color: rgb(37, 19, 19);
@@ -28,13 +27,13 @@ body {
 
 .scoreboard-header{
   margin-top: 100px;
-  margin-bottom: 50px;
 }
 
 .scoreboard-title{
   display: flex;
   justify-content: center;
-  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: antiquewhite;
   font-size: 40px;
 }
 
@@ -48,6 +47,7 @@ body {
 }
 
 .user-box {
+  margin-top: 40px;
   margin-right: 40px;
   background-color: antiquewhite;
   border: 3px solid white;
@@ -57,10 +57,19 @@ body {
 }
 
 .computer-box {
+  margin-top: 40px;
   margin-left: 40px;
   background-color: antiquewhite;
   border: 3px solid white;
   border-radius: 50px;
   width: 200px;
   height: 200px;
+}
+
+p {
+  padding-bottom: 20px;
+  color: rgb(37, 19, 19);
+  display: flex;
+  font-size: 200px;
+  justify-content: center;
 }
